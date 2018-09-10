@@ -1,0 +1,8 @@
+{
+    "id": "6266",
+    "name": "Yankee",
+    "minimalInvestment": "75",
+    "managerReward": "35",
+    "description_en": "A trading strategy with a history of just over a year, which is based on the opening of short-term positions. A key feature of this strategy is trading on trend movement with the entrance to the market after the beginning of the corrective movement or after the breakdown of the required level. As the main instruments of trading, 5 currency pairs are used. In this strategy, manager uses standard lot size of lot size and increases it as the deposit grows.",
+    "description_ru": "Торговая стратегия с историей чуть более года, которая строится на открытии краткосрочных позиций. Особенностью данной стратегии является торговля по тренду с входом на рынок после начала коррекционного движения или после пробоя необходимого уровня. В качестве основных инструментов торговли, используется 5 валютных пар. При торговле, управляющий использует методику увеличения размера открываемых сделок пропорционально росту депозита."
+},

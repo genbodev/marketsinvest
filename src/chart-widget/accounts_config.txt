@@ -1,0 +1,418 @@
+[{
+    "id": "6205",
+    "name": "Alpha",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "A trading strategy with a history of 2 years, which is based primarily on trading the EUR/USD currency pair. This trading strategy is based on intraday trading, which allows to reduce the role of statistical factors in trading. To diversify trade risks, the manager of this strategy uses, in addition to the EUR/USD currency pair, 6 more currency pairs. In this strategy, manager opens orders with standard lots size for each instrument in proportion to the size of his balance.",
+    "description_ru": "Торговая стратегия с историей в 2 года, которая основывается преимущественно на торговле валютной парой EUR/USD. Данная торговая стратегия строится на внутридневной торговле, что позволяет уменьшить роль статистических факторов при торговле. Для диверсификации рисков торговли, управляющий данной стратегией использует помимо валютной пары EUR/USD еще 6 валютных пар. При торговле, управляющий открывает сделки стандартными лотами для каждого инструмента пропорционально размеру своего баланса.",
+    "additional_info_en": [
+        "The average balance for a 3-month period: $ 13,400",
+        "Average % of profitable trades: 50.87%",
+        "Average number of transactions per day: 2.09",
+        "Avg. Trade Length: 7 hours",
+        "Trading instruments: AUD / CAD, AUD / SGD, EUR / CAD, EUR / USD, GBP / JPY, GBP / USD, EUR / USD."
+
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $13,400",
+        "Средний % прибыльных сделок: 50.87%",
+        "Среднее кол-во сделок в день: 2.09",
+        "Средняя продолжительность сделки: 7 часов",
+        "Торговые инструменты: AUD/CAD, AUD/SGD, EUR/CAD, EUR/USD, GBP/JPY, GBP/USD, EUR/USD."
+
+    ]
+},
+{
+    "id": "6267",
+    "name": "Charlie",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "A trading strategy with a history of 1.5 years, which is based on the use of the \"scalping trading\" - opening a large number of transactions with a short time of their retention. The trading strategy timeframe is 1 minute. A key feature of this strategy is trading only in the period after the opening of a new trading day. As the main instruments of trading, currency pairs EUR/CHF, USD/CHF are used. In this strategy, manager opens orders with standard lots for each instrument.",
+    "description_ru": "Торговая стратегия с историей в 1,5 года, которая строится на использовании метода \"скальпинга\", т.е открытия большого количества сделок с маленьким временем их удержания. Торговая стратегия ориентирована на период графика в 1 минуту. Ключевой особенностью данной стратегии является торговля исключительно в период после открытия нового торгового дня. В качестве основных инструментов торговли, используются пары EUR/CHF, USD/CHF. При торговле, управляющий открывает сделки стандартными лотами.",
+    "additional_info_en": [
+        "The average balance for a 3-month period: $ 7,250",
+        "Average % of profitable trades: 72.00%",
+        "Average number of transactions per day: 3.45",
+        "Avg. Trade Length: 1 hour",
+        "Trading instruments: EUR / CHF, USD / CHF."
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $7,250",
+        "Средний % прибыльных сделок: 72.00%",
+        "Среднее кол-во сделок в день: 3.45",
+        "Средняя продолжительность сделки: 1 час",
+        "Торговые инструменты: EUR/CHF, USD/CHF."
+    ]
+},
+{
+    "id": "6207",
+    "name": "Delta",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "Trading strategy with a history of more than a year, which is based on the opening of long-term and medium-term positions. In order to minimize risks, manager uses the averaging technique with a set of positions in equal shares. As the main instruments of trading, 29 currency pairs are used. In this strategy, manager opens orders, with standard lots size for each instrument, in overbought or oversold areas of the market",
+    "description_ru": "Торговая стратегия с историей более года, которая строится на открытии долгосрочных  и среднесрочных позиций. С целью минимизации риска, управляющий использует методику усреднения с набором позиций равными долями. В качестве основных инструментов торговли, используется 29 валютных пар. При торговле, управляющий открывает сделки стандартными лотами равными долями в зонах перекупленности или перепроданности рынка.",
+    "additional_info_en": [
+        "The average balance for a 3-month period:  $7,216",
+        "Average % of profitable trades: 91.47%",
+        "Average number of transactions per day: 3.58",
+        "Avg. Trade Length: 9 days",
+        "Trading instruments: AUD/CAD, AUD/CHF, AUD/JPY, AUD/NZD, AUD/USD, CAD/CHF, CAD/JPY, CHF/JPY, EUR/AUD, EUR/CAD, EUR/CHF, EUR/GBP, EUR/HKD, EUR/JPY, EUR/NOK, EUR/NZD, EUR/TRY, EUR/USD, GBP/AUD, GBP/CAD, GBP/JPY, GBP/USD, NZD/USD, SGD/JPY, USD/CAD, USD/CHF, USD/CNH, USD/JPY, USD/MXN USD/SGD."
+
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $7,216",
+        "Средний % прибыльных сделок: 91.47%",
+        "Среднее кол-во сделок в день: 3.58",
+        "Средняя продолжительность сделки: 9 дней",
+        "Торговые инструменты: AUD/CAD, AUD/CHF, AUD/JPY, AUD/NZD, AUD/USD, CAD/CHF, CAD/JPY, CHF/JPY, EUR/AUD, EUR/CAD, EUR/CHF, EUR/GBP, EUR/HKD, EUR/JPY, EUR/NOK, EUR/NZD, EUR/TRY, EUR/USD, GBP/AUD, GBP/CAD, GBP/JPY, GBP/USD, NZD/USD, SGD/JPY, USD/CAD, USD/CHF, USD/CNH, USD/JPY, USD/MXN USD/SGD."
+
+    ]
+},
+{
+    "id": "6219",
+    "name": "Foxtrot",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "Trading strategy with a history of more than a year. This trading strategy is based on intraday trading, which allows to reduce the role of statistical factors in trade. A key feature of this strategy is trading on trend movement with using of a non-fixed \"Stop loss\". As the main instruments of trading , 12 currency pairs are used. In this strategy, manager opens orders with different sizes of lots.",
+    "description_ru": "Торговая стратегия с историей более года. Данная торговая стратегия строится на внутридневной торговле, что позволяет уменьшить роль статистических факторов при торговле. Особенностью данной стратегии является трендовая торговля с использованием не фиксированного \"Stop loss'a\". В качестве основных инструментов торговли, используется 12 валютных пар. При торговле, управляющий использует разные размеры лотов.",
+    "additional_info_en": [
+        "The average balance for a 3-month period:  $22,809",
+        "Average % of profitable trades: 74.29%",
+        "Average number of transactions per day: 2.67",
+        "Avg. Trade Length: 9 hours",
+        "Trading instruments: AUD/CAD, AUD/NZD, EUR/AUD, EUR/NZD, EUR/USD, GBP/CAD, GBP/CHF, GBP/USD, NZD/USD, USD/JPY, GBP/USD, USD/JPY."
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $37,714",
+        "Средний % прибыльных сделок: 58.78%",
+        "Среднее кол-во сделок в день: 2.76",
+        "Средняя продолжительность сделки: 10 часов",
+        "Торговые инструменты: AUD/CAD, AUD/NZD, EUR/AUD, EUR/NZD, EUR/USD, GBP/CAD, GBP/CHF, GBP/USD, NZD/USD, USD/JPY, GBP/USD, USD/JPY."
+    ]
+},
+{
+    "id": "6211",
+    "name": "Golf",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "A trading strategy with a history of just under a year, which is based on the opening of long-term positions. A key feature of this strategy is a combined trading with opening of long-term positions and scalping trading with a timeframe from M1 to H4. As the main instruments of trading, 5 currency pairs are used. In this strategy, manager uses a large number of opened orders to minimize risks.",
+    "description_ru": "Торговая стратегия с историей чуть менее года, которая строится на открытии долгосрочных позиций. Особенностью данной стратегии является комбинированная торговля с открытием долгосрочных позиций и скальпинга на интервалах от M1 до H4. В качестве основных инструментов торговли, используется 5 валютных пар. При торговле, управляющий использует большое количество открытых сделок для минимизации рисков.",
+    "additional_info_en": [
+        "The average balance for a 3-month period:  $7,581",
+        "Average % of profitable trades: 97.75%",
+        "Average number of transactions per day: 6.18",
+        "Avg. Trade Length: 7 days",
+        "Trading instruments: EUR/CAD, EUR/CHF, EUR/GBP, EUR/JPY, EUR/USD."
+
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $7,581",
+        "Средний % прибыльных сделок: 97.75%",
+        "Среднее кол-во сделок в день: 6.18",
+        "Средняя продолжительность сделки: 7 дней",
+        "Торговые инструменты: EUR/CAD, EUR/CHF, EUR/GBP, EUR/JPY, EUR/USD."
+
+    ]
+},
+{
+    "id": "6221",
+    "name": "Hotel",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "Trading strategy with a history of 2.5 years, which is based on opening of medium and short term positions. A key feature of this strategy is the use of robot for opening a large number of orders. As the main instruments of trading, 14 tools are used. In this strategy, manager uses a large number of opened orders and trading on strong market movements to minimize risks.",
+    "description_ru": "Торговая стратегия с историей 2,5 года, которая строится на открытии среднесрочных и краткосрочных позиций. Особенностью данной стратегии является использование робота для открытия большого количества сделок. В качестве основных инструментов торговли, используется 14 инструментов. При торговле, управляющий использует большое количество открытых сделок и торговлю на сильных движениях рынка для минимизации рисков.",
+    "additional_info_en": [
+        "The average balance for a 3-month period:  $12,073",
+        "Average % of profitable trades: 57.92%",
+        "Average number of transactions per day: 28.11",
+        "Avg. Trade Length: 7 hours",
+        "Trading instruments: USD/CHF, AUD/USD, NZD/USD, EUR/USD, EUR/JPY, EUR/GBP, EUR/AUD, GBP/JPY, GBP/USD, EUR/CAD USD/JPY, AUD/JPY, AUD/CAD, USD/CAD."
+
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $12,073",
+        "Средний % прибыльных сделок: 57.92%",
+        "Среднее кол-во сделок в день: 28.11",
+        "Средняя продолжительность сделки: 7 часов",
+        "Торговые инструменты: USD/CHF, AUD/USD, NZD/USD, EUR/USD, EUR/JPY, EUR/GBP, EUR/AUD, GBP/JPY, GBP/USD, EUR/CAD USD/JPY, AUD/JPY, AUD/CAD, USD/CAD."
+
+    ]
+},
+{
+    "id": "6223",
+    "name": "India",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "Trading strategy with a history of one and a half years, which is based on the opening of medium and short term positions. A key feature of this strategy is trading on the trend's movement, as well as the opening of positions when the price rolls back and low market activity. As the main instruments of trading, 6 tools are used. In this strategy, manager uses the method of increasing the lot size as profit increases.",
+    "description_ru": "Торговая стратегия с историей в полтора года, которая строится на открытии среднесрочных и краткосрочных позиций. Особенностью данной стратегии является торговля по движению тренда, а также открытие позиций при откате цены и низкой активности рынка. В качестве основных инструментов торговли, используется 6 инструментов. При торговле, управляющий использует методику увеличения лота по мере набора прибыли.",
+    "additional_info_en": [
+        "The average balance for a 3-month period:  $12,073",
+        "Average % of profitable trades: 71.77%",
+        "Average number of transactions per day:3.65",
+        "Avg. Trade Length: 10 hours",
+        "Trading instruments: USD/CAD, EUR/JPY, EUR/USD, GBP/USD, AUD/USD, USD/JPY"
+
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $12,073",
+        "Средний % прибыльных сделок: 71.77%",
+        "Среднее кол-во сделок в день: 3.65",
+        "Средняя продолжительность сделки: 10 часов",
+        "Торговые инструменты: USD/CAD, EUR/JPY, EUR/USD, GBP/USD, AUD/USD, USD/JPY"
+
+    ]
+},
+{
+    "id": "6268",
+    "name": "Kilo",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "Trading strategy with a history of two years. This trading strategy is based on intraday trading, which allows to reduce the role of statistical factors in trading. A key feature of this strategy is trading with using small lots sizes with narrow 'take profit' and 'Stop loss' corridor. As the main instruments of trading, 4 tools are used. In this strategy, manager uses a profit-making strategy based on the opening of transactions at the time when price returns after a false level breakdown.",
+    "description_ru": "Торговая стратегия с историей в два года. Данная торговая стратегия строится на внутридневной торговле, что позволяет уменьшить роль статистических факторов при торговле. Особенностью данной стратегии является торговля маленькими лотами с использованием узкого коридора ‘take profit” и “Stop loss”. В качестве основных инструментов торговли, используется 4 инструмента. При торговле, управляющий использует стратегию получения прибыля основанную на открытии сделок в момент возврата цены после ложного пробоя уровня.",
+    "additional_info_en": [
+        "The average balance for a 3-month period: $1,729",
+        "Average % of profitable trades: 65.00%",
+        "Average number of transactions per day: 1.78",
+        "Avg. Trade Length: 3 hours",
+        "Trading instruments: EUR/JPY, USD/JPY, EUR/USD, GBP/USD."
+
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $1,729",
+        "Средний % прибыльных сделок: 65.00%",
+        "Среднее кол-во сделок в день: 1.78",
+        "Средняя продолжительность сделки: 3 часа",
+        "Торговые инструменты: EUR/JPY, USD/JPY, EUR/USD, GBP/USD."
+
+    ]
+},
+{
+    "id": "6220",
+    "name": "Lima",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "Trading strategy with a history of two years. This trading strategy is a medium-term trading strategy. A key feature of this strategy is trading exclusively within the trend movement. As the main instruments of trade, 7 tools are used.  In this strategy, manager uses a fixed lot size in proportion to the current balance to minimize risks",
+    "description_ru": "Торговая стратегия с историей в два года. Данная торговая стратегия относится к среднесрочным торговым стратегиям. Особенностью данной стратегии является торговля исключительно в рамках движения тренда. В качестве основных инструментов торговли, используется 7 инструментов. При торговле, управляющий использует  фиксированный размер лота пропорционально текущему балансу для минимизации рисков.",
+    "additional_info_en": [
+        "The average balance for a 3-month period: $9,275",
+        "Average % of profitable trades: 89.05%",
+        "Average number of transactions per day: 0.89",
+        "Avg. Trade Length: 11 hours",
+        "Trading instruments: EUR/USD, GBP/USD, USD/CAD, USD/JPY, AUD/USD, NZD/USD, EUR/GBP."
+
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $9,275",
+        "Средний % прибыльных сделок: 89.05%",
+        "Среднее кол-во сделок в день: 0.89",
+        "Средняя продолжительность сделки: 11 часов",
+        "Торговые инструменты:  EUR/USD, GBP/USD, USD/CAD, USD/JPY, AUD/USD, NZD/USD, EUR/GBP."
+
+    ]
+},
+{
+    "id": "6206",
+    "name": "Papa",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "A trading strategy with a history of just under a year. This trading strategy is based on medium and long-term channel trading on the return movement of the trend. As the main instruments of trade, 9 currency pairs are used. Manager uses the strategy of entering the market and trading on corrective market movements by using different lot sizes.",
+    "description_ru": "Торговая стратегия с историей чуть менее года. Данная торговая стратегия строится на среднесрочной и долгосрочной канальной торговле на возврате тренда. В качестве основных инструментов торговли, используется 9 валютных пар. При торговле, управляющий использует стратегию входа на рынок и торговли на коррекционных движениях рынка с использованием разной лотности.",
+    "additional_info_en": [
+        "The average balance for a 3-month period:  $11,355",
+        "Average % of profitable trades: 85.15%",
+        "Average number of transactions per day: 1.74",
+        "Avg. Trade Length: 9 days",
+        "Trading instruments:   AUD/CAD, EUR/GBP, EUR/JPY, EUR/USD, GBP/AUD, GBP/CAD, GBP/NZD, NZD/JPY, USD/JPY."
+
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $11,355",
+        "Средний % прибыльных сделок: 85.15%",
+        "Среднее кол-во сделок в день: 1.74",
+        "Средняя продолжительность сделки: 9 дней",
+        "Торговые инструменты:  AUD/CAD, EUR/GBP, EUR/JPY, EUR/USD, GBP/AUD, GBP/CAD, GBP/NZD, NZD/JPY, USD/JPY."
+    ]
+},
+{
+    "id": "6216",
+    "name": "Quebec",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "A trading strategy with a history of just under a year. This trading strategy is based on trading through the use of the technique of breakdowns of the previous level. The main currency is USD / JPY. Manager uses trading techniques for the breakdown of the previous level. In order to minimize risks, manager uses the averaging technique",
+    "description_ru": "Торговая стратегия с историей чуть менее года. Данная торговая стратегия строится на торговле за счет использования методики пробоев предыдущего уровня. В качестве основного инструмента торговли используется валютная пара USD/JPY. При торговле, управляющий использует методики торговли на пробой предыдущего уровня, при этом для минимизации рисков, управляющий использует методику усреднения",
+    "additional_info_en": [
+        "The average balance for a 3-month period:   $3,185",
+        "Average % of profitable trades: 56.30%",
+        "Average number of transactions per day: 0.51",
+        "Avg. Trade Length: 26 hours",
+        "Trading instruments:   USD/JPY."
+
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $3,185",
+        "Средний % прибыльных сделок: 56.30%",
+        "Среднее кол-во сделок в день: 0.51",
+        "Средняя продолжительность сделки: 26 часов",
+        "Торговые инструменты: USD/JPY."
+
+    ]
+},
+{
+    "id": "6270",
+    "name": "Sierra",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "Trading strategy with a history of 4 years. This trading strategy is based on trading \"rebounds from the levels\" and the areas of the congestion. As the main instruments of trading, 7 currency pairs are used. In this strategy, manager uses the averaging technique to minimize risks.",
+    "description_ru": "Торговая стратегия с историей в 4 года. Данная торговая стратегия строится на торговле \"отбоев от уровней\" и зон скопления. В качестве основных инструментов торговли, используется 7 валютных пар. При торговле, управляющий использует методику усреднения для минимизации рисков.",
+    "additional_info_en": [
+        "The average balance for a 3-month period:   $139,300",
+        "Average % of profitable trades: 67.19%",
+        "Average number of transactions per day: 3.11",
+        "Avg. Trade Length: 24 hours",
+        "Trading instruments: NZD/CAD, AUD/NZD, EUR/GBP, AUD/CAD, EUR/SGD, GBP/CAD, NZD/USD."
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $139,300",
+        "Средний % прибыльных сделок: 67.19%",
+        "Среднее кол-во сделок в день: 3.11",
+        "Средняя продолжительность сделки: 24 часа",
+        "Торговые инструменты: NZD/CAD, AUD/NZD, EUR/GBP, AUD/CAD, EUR/SGD, GBP/CAD, NZD/USD."
+    ]
+},
+{
+    "id": "6273",
+    "name": "Uniqorn",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "Trading strategy with a history of more than four years. This trading strategy is based on trading on trend movement, after a breakdown of a certain level. As the main instruments of trade, 6 tools are used. In this strategy, manager opens orders with standard lot size and increases it as the deposit grows.",
+    "description_ru": "Торговая стратегия с историей более четырех лет. Данная торговая стратегия строится на торговле по тренду, после пробоя определенного уровня. В качестве основных инструментов торговли, используется 6 инструментов. При торговле, управляющий использует для открытия стандартный размер лота, который увеличивается по мере роста депозита. ",
+    "additional_info_en": [
+        "The average balance for a 3-month period:   $1309",
+        "Average % of profitable trades: 72.86%",
+        "Average number of transactions per day:  0.50",
+        "Avg. Trade Length: 3 hours",
+        "Trading instruments: EUR/USD, AUD/USD, GBP/USD, USD/CAD, USD/JPY, EUR/GBP."
+
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $1309",
+        "Средний % прибыльных сделок: 72.86%",
+        "Среднее кол-во сделок в день: 0.50",
+        "Средняя продолжительность сделки: 3 часа",
+        "Торговые инструменты: EUR/USD, AUD/USD, GBP/USD, USD/CAD, USD/JPY, EUR/GBP."
+
+    ]
+},
+{
+    "id": "6218",
+    "name": "Victor",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "A trading strategy with a history of just under a year. This trading strategy is based on opening positions on the trend movement by using a robot. As the main instruments of trading, 17 tools are used. In this strategy, manager uses a large number of opened orders, which are opened by robot after determining the trend movement, in order to obtain the greatest benefits and minimize risks.",
+    "description_ru": "Торговая стратегия с историей чуть менее года. Данная торговая стратегия строится на открытии позиций в рамках движения тренда с использованием робота. В качестве основных инструментов торговли, используется 17 инструментов . При торговле, управляющий использует большое количество открытых сделок, которые открываются роботом после определения движения тренда, с целью получения наибольшей выгоды и минимизации рисков.",
+    "additional_info_en": [
+        "The average balance for a 3-month period:  $3,288",
+        "Average % of profitable trades: 55.79%",
+        "Average number of transactions per day:  24.50",
+        "Avg. Trade Length: 8 hours",
+        "Trading instruments: EUR/GBP, USD/CHF, GBP/USD, EUR/USD, AUD/USD, USD/JPY, AUD/JPY, EUR/AUD, EUR/JPY, EUR/CAD, NZD/USD, AUD/CAD, GBP/JPY, USD/CAD, EUR/CHF, GBP/CHF, GBP/AUD."
+
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $3,288",
+        "Средний % прибыльных сделок: 55.79%",
+        "Среднее кол-во сделок в день: 24.50",
+        "Средняя продолжительность сделки:8 часов",
+        "Торговые инструменты: EUR/GBP, USD/CHF, GBP/USD, EUR/USD, AUD/USD, USD/JPY, AUD/JPY, EUR/AUD, EUR/JPY, EUR/CAD, NZD/USD, AUD/CAD, GBP/JPY, USD/CAD, EUR/CHF, GBP/CHF, GBP/AUD."
+    ]
+},
+{
+    "id": "6213",
+    "name": "Whickey",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "A trading strategy with a history of just under a year, which is based on the opening of short and medium term orders. A key feature of this strategy is a large number of opened transactions of small volume. As the main instruments of trading, 4 currency pairs are used. In this strategy, manager uses the averaging technique to minimize risks.",
+    "description_ru": "Торговая стратегия с историей чуть менее года, которая строится на открытии краткосрочных и среднесрочных позиций. Особенностью данной стратегии является большое количество открытых сделок маленького объема. В качестве основных инструментов торговли, используется 4 валютных пары. При торговле, управляющий использует методику усреднения для минимизации рисков.",
+    "additional_info_en": [
+        "The average balance for a 3-month period:   $18,140",
+        "Average % of profitable trades: 58.00%",
+        "Average number of transactions per day:   3.72",
+        "Avg. Trade Length: 4 days",
+        "Trading instruments:  EUR/USD, GBP/USD, USD/CAD, USD/JPY."
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $18,140",
+        "Средний % прибыльных сделок: 58.00%",
+        "Среднее кол-во сделок в день: 3.72",
+        "Средняя продолжительность сделки: 4 дня",
+        "Торговые инструменты: EUR/USD, GBP/USD, USD/CAD, USD/JPY."
+    ]
+},
+{
+    "id": "6266",
+    "name": "Yankee",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "A trading strategy with a history of just over a year, which is based on the opening of short-term positions. A key feature of this strategy is trading on trend movement with the entrance to the market after the beginning of the corrective movement or after the breakdown of the required level. As the main instruments of trading, 5 currency pairs are used. In this strategy, manager uses standard lot size of lot size and increases it as the deposit grows.",
+    "description_ru": "Торговая стратегия с историей чуть более года, которая строится на открытии краткосрочных позиций. Особенностью данной стратегии является торговля по тренду с входом на рынок после начала коррекционного движения или после пробоя необходимого уровня. В качестве основных инструментов торговли, используется 5 валютных пар. При торговле, управляющий использует методику увеличения размера открываемых сделок пропорционально росту депозита.",
+    "additional_info_en": [
+        "The average balance for a 3-month period:  $570",
+        "Average % of profitable trades: 88.72%",
+        "Average number of transactions per day:  3.38",
+        "Avg. Trade Length:3 hours",
+        "Trading instruments: EUR/CHF, USD/CHF, AUD/CAD, EUR/GBP, GBP/USD."
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $570",
+        "Средний % прибыльных сделок: 88.72%",
+        "Среднее кол-во сделок в день: 3.38",
+        "Средняя продолжительность сделки: 3 часа",
+        "Торговые инструменты: EUR/CHF, USD/CHF, AUD/CAD, EUR/GBP, GBP/USD."
+    ]
+},
+{
+    "id": "6264",
+    "name": "X-ray",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "A trading strategy with a history of one year, which is based on impulse trading. A key feature of this strategy is the impulse trading on strong impulse movement by using fixed \"Stop loss\" and \"Take Profit\" levels. As the main instruments of trade, 3 currency pairs are used. In this strategy, manager uses the averaging technique, using up to 7 averages per pulse, in order to minimize risks.",
+    "description_ru": "Торговая стратегия с историей в один год, которая основывается на импульсной торговле. Особенностью данной стратегии является импульсная торговля со входом на рынок после начала сильного импульсного движения с использованием фиксированных показателей \"Stop loss\" и \"Take Profit\". В качестве основных инструментов торговли, используется 3 валютных пары. При торговле,с целью минимизации рисков, управляющий использует методику усреднения, с использованием до 7 усреднений за один импульс.",
+    "additional_info_en": [
+        "The average balance for a 3-month period:  $29,250",
+        "Average % of profitable trades:  60.40%",
+        "Average number of transactions per day:  1.04",
+        "Avg. Trade Length: 8 hours",
+        "Trading instruments: AUD/USD, GBP/USD, EUR/USD."
+
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $29,250",
+        "Средний % прибыльных сделок: 60.40%",
+        "Среднее кол-во сделок в день: 1.04",
+        "Средняя продолжительность сделки: 8 часов",
+        "Торговые инструменты: AUD/USD, GBP/USD, EUR/USD."
+    ]
+},
+{
+    "id": "6269",
+    "name": "Unaone",
+    "minimalInvestment": "",
+    "managerReward": "",
+    "description_en": "Trading strategy with a history of one year. This strategy is a medium-term trading strategy and is based on trend trading. A key feature of this strategy is opening lots  within the trend movement, after breaking of support or resistance level. As the main instruments of trade, 13 currency pairs are used. In this strategy, manager opens positions with standard lots and increases lot's size as the deposit grows.",
+    "description_ru": "Торговая стратегия с историей в один год. Данная стратегия относится к среднесрочным торговым стратегиям и основывается на торговле по тренду. Особенностью данной стратегии является открытие котировок в рамках движения тренда, после пробития уровня поддержки или сопротивления. В качестве основных инструментов торговли, используется 13 валютных пар. При торговле, управляющий открывает позиции стандартными лотами и увеличивает размер сделки по мере роста депозита.",
+    "additional_info_en": [
+        "The average balance for a 3-month period:  $2,325",
+        "Average % of profitable trades: 62.84%",
+        "Average number of transactions per day:  1.07",
+        "Avg. Trade Length: 3 days",
+        "Trading instruments: AUD/JPY, AUD/USD, CAD/JPY, EUR/AUD, EUR/GBP, EUR/JPY, EUR/NZD, EUR/USD, GBP/AUD, GBP/JPY, GBP/USD, USD/CAD, USD/JPY."
+    ],
+    "additional_info_ru": [
+        "Средний баланс в течение 3-мес периода $2,325",
+        "Средний % прибыльных сделок: 62.84%",
+        "Среднее кол-во сделок в день: 1.07",
+        "Средняя продолжительность сделки: 3 дня",
+        "Торговые инструменты: AUD/JPY, AUD/USD, CAD/JPY, EUR/AUD, EUR/GBP, EUR/JPY, EUR/NZD, EUR/USD, GBP/AUD, GBP/JPY, GBP/USD, USD/CAD, USD/JPY."
+    ]
+}
+]

@@ -1,0 +1,1091 @@
+// =============================================================================
+// MEDIA QUERIES FOR RESPONSIVE DESIGN
+// =============================================================================
+
+// =============================================================================
+// Large Devices, Wide Screens
+// =============================================================================
+
+@media only screen and (max-width: 1200px) {
+
+  // BANNER
+  // =============================================================================
+  .app-white-label-banner,
+  .app-trading-platform-banner,
+  .app-partnership-programs-banner,
+  .app-frequently-asked-questions-banner,
+  .app-faq-category-banner,
+  .app-trading-conditions-banner,
+  .app-deposit-and-withdrawal-banner {
+    &__text {
+      font-size: 3.719rem;
+    }
+  }
+
+  .app-carousel-caption {
+    transform: translate3d(-50%, -75%, 0);
+    h3 {
+      font-size: 3.771rem;
+    }
+    p {
+      font-size: 2.221rem;
+    }
+  }
+  .app-new {
+    &__title {
+      max-width: 100%;
+    }
+    &__text {
+      min-height: auto;
+    }
+    &__date {
+      transform: translate3d(-90px, -50%, 0);
+    }
+  }
+  #traders-calculator-form-account {
+    .app-form-group {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    #account-type {
+      width: 100%;
+      .bootstrap-select {
+        width: 100%;
+      }
+    }
+    #account-currency {
+      width: 100%;
+      .bootstrap-select {
+        width: 100%;
+      }
+    }
+    #leverage {
+      width: 100%;
+      .bootstrap-select {
+        width: 100%;
+      }
+    }
+  }
+  #traders-calculator-form-order {
+    #order-instrument {
+      width: 100%;
+      .bootstrap-select {
+        padding-right: 25px;
+        width: 100%;
+      }
+    }
+  }
+  /*  #fxst_calendar {
+      width: 970px;
+    }*/
+  .app-footer-security {
+    flex: 1 0 300px;
+  }
+  .app-404-message {
+    margin-bottom: 25px;
+    &:after {
+      display: none;
+    }
+    &__title, &__text {
+      text-align: center;
+    }
+  }
+
+  // WHITE LABEL
+  // =============================================================================
+  .app-white-label-description {
+    &__button {
+      font-size: 0.9375rem;
+      padding: 14px 20px;
+    }
+  }
+
+}
+
+// =============================================================================
+// Medium Devices, Desktops
+// =============================================================================
+
+@media only screen and (max-width: 992px) {
+
+  // BANNER
+  // =============================================================================
+  .app-body-head__text,
+  .app-body-head__text_interval {
+    font-size: 3.772rem;
+    line-height: 5.313rem;
+  }
+  .app-body-head__text_accent {
+    font-size: 2.481rem;
+    line-height: 3.101rem;
+  }
+  .app-white-label-banner,
+  .app-trading-platform-banner,
+  .app-partnership-programs-banner,
+  .app-frequently-asked-questions-banner,
+  .app-faq-category-banner,
+  .app-trading-conditions-banner,
+  .app-deposit-and-withdrawal-banner {
+    &__text {
+      font-size: 3.719rem;
+    }
+  }
+
+  .app-carousel-caption {
+    transform: translate3d(-50%, -100%, 0);
+    h3 {
+      font-size: 2.923rem;
+    }
+    p {
+      font-size: 1.721rem;
+    }
+  }
+  .app-investing-calculator__profit__col {
+    margin-bottom: 20px;
+    text-align: center !important;
+  }
+  .app-new {
+    &__date {
+      transform: translate3d(-60px, -50%, 0);
+    }
+  }
+  /*  #fxst_calendar {
+      width: 750px;
+    }*/
+  .app-footer-refs {
+    flex-direction: column;
+  }
+  .app-footer-links {
+    flex: 1 0 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .app-footer-pages {
+    border: none;
+    border-bottom: 1px solid $mercury2;
+    border-top: 1px solid $mercury2;
+    justify-content: center;
+  }
+  .app-footer-security {
+    flex: 1 0 200px;
+  }
+  .app-footer, .app-404-body {
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  // TRADING ACCOUNTS
+  // =============================================================================
+  .app-trading-accounts-list__wrap {
+    width: 475px;
+  }
+  .app-trading-accounts-list__main {
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    width: 100%;
+    height: auto;
+  }
+  .app-trading-accounts-list__main__head {
+    border-top-right-radius: 5px;
+    font-size: 1.292rem;
+  }
+  .app-trading-accounts-list__desc {
+    border-top: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-left: 1px solid $mercury2;
+    width: 100%;
+  }
+
+  // CALL CENTER
+  // =============================================================================
+  .app-call-center-solution {
+    height: 100%;
+    width: 100%;
+    order: 2;
+  }
+  .app-call-center-made-solution-wrapper {
+    flex-direction: column;
+  }
+
+  // WHITE LABEL
+  // =============================================================================
+  .app-white-label-description {
+    &__container {
+      padding: 0 15px;
+    }
+    &__text {
+      height: auto;
+      margin-top: 30px;
+    }
+  }
+
+  // PARTNERSHIP PROGRAMS
+  // =============================================================================
+  .app-partnership-programs-description {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-partnership-programs-docket {
+    &__variant {
+      width: 340px;
+    }
+    &__title {
+      font-size: 1.5rem;
+    }
+    &__image {
+      img {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 5px;
+      }
+    }
+  }
+
+  // TRADING PLATFORM
+  // =============================================================================
+  .app-trading-platform-description {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-trading-platform-description {
+    &__text-wrapper {
+      height: 100%;
+    }
+  }
+  .app-trading-platform-carousel {
+    &__item-unit {
+      justify-content: center;
+      &-left {
+        margin-left: 0
+      }
+      &-right {
+        margin-right: 0
+      }
+    }
+    &__control {
+      &__left-arrow {
+        display: none;
+      }
+      &__right-arrow {
+        display: none;
+      }
+    }
+  }
+
+  // FREQUENTLY ASKED QUESTIONS
+  // =============================================================================
+  .app-frequently-asked-questions-description {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+
+  // FAQ CATEGORY
+  // =============================================================================
+  .app-faq-category-description,
+  .app-faq-category-questions {
+    &__container {
+      margin: 0 15px;
+    }
+  }
+
+  // TRADING CONDITIONS
+  // =============================================================================
+  .app-trading-conditions-description,
+  .app-trading-conditions-search {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-trading-conditions-tables__container {
+    padding: 0 15px;
+  }
+  #app-trading-conditions-tables .app-trading-conditions-table__tabs-item a {
+    font-size: 0.8125rem;
+  }
+
+  // DEPOSIT AND WITHDRAWALS
+  // =============================================================================
+  .app-deposit-and-withdrawals-description {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-deposit-and-withdrawals-tables__container {
+    padding: 0 15px;
+  }
+  #app-deposit-and-withdrawals-tables .app-deposit-and-withdrawal-table__tabs-item a {
+    font-size: 0.8125rem;
+  }
+
+  .app-deposit-and-withdrawal-table {
+    &-wrapper {
+      margin: 0 15px;
+    }
+    &-row{
+      &-head {
+        display: none;
+      }
+      &-bank-transfers {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+      &-item {
+        height: auto;
+        flex-direction: column;
+        >div {
+          background-size: 0;
+          height: auto;
+          margin: 5px;
+        }
+      }
+    }
+    &-cell {
+      width: 100%;
+      &-img {
+        margin: 15px 0 5px 0;
+      }
+      &-desc {
+        width: auto;
+      }
+      &-button {
+        margin-bottom: 15px;
+      }
+    }
+    &-cell:first-child {
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  .app-deposit-and-withdrawal-questions{
+    &-block {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+  }
+
+  // FOREX GLOSSARY BODY
+  // =============================================================================
+  .app-forex-glossary-action{
+    &__alphabet{
+      &-wrapper {
+        display: none;
+      }
+    }
+    &__result {
+      &-words {
+        &-wrapper {
+          display: none;
+        }
+      }
+    }
+  }
+
+}
+
+// =============================================================================
+// Small Devices, Tablets
+// =============================================================================
+
+@media only screen and (max-width: 768px) {
+  .app-btn-info {
+    width: 280px;
+    height: 40px;
+    font-size: 0.86rem;
+  }
+  .app-carousel-caption {
+    padding: 0 15px;
+    transform: translate3d(-50%, -60%, 0);
+    h3 {
+      font-size: 1.826rem;
+    }
+    p {
+      margin-bottom: 20px;
+      font-size: 1.075rem;
+    }
+  }
+  .app-form-col {
+    flex-direction: column;
+  }
+  #traders-calculator-form-order .app-form-group {
+    padding-right: 0;
+  }
+  #traders-calculator-form-order #order-instrument .bootstrap-select {
+    padding-right: 0;
+  }
+  #traders-calculator-form-order .bootstrap-touchspin {
+    padding-right: 0;
+  }
+  .app-form-group-radio {
+    align-items: center !important;
+  }
+  .app-carousel-item {
+    img {
+      width: 768px;
+      max-width: 768px !important;
+      min-height: 245px;
+    }
+  }
+  .app-investing-strategies-wrap {
+    padding: 25px 0;
+  }
+  .app-investing-strategies {
+    padding: 0 15px;
+  }
+  #app-strategies-mobile {
+    padding: 15px 15px 10px 15px;
+  }
+  .app-strategies-wrap {
+    padding: 20px 0;
+  }
+  .app-investing-calculator {
+    padding: 10px 0;
+  }
+  .app-strategies {
+    &__container {
+      padding: 0 15px;
+      border: none;
+    }
+  }
+  .app-strategy-description__list-title {
+    text-align: center;
+    line-height: 1.5;
+  }
+  #orderConsultationModal {
+    .modal-dialog {
+      width: 400px;
+    }
+    .modal-content {
+      padding: 0 5px;
+    }
+    .form-group {
+      width: 100%;
+    }
+    .form-group-col {
+      flex-direction: column;
+    }
+    .form-group-col .form-group:first-of-type {
+      margin-right: 0;
+    }
+  }
+  #app-investing-calculator .slider {
+    margin: 0 10px;
+    width: 250px;
+  }
+  #app-strategy-graph .app-strategy-graph__nav-tabs__item a {
+    font-size: 0.6875rem;
+    padding-top: 20px;
+  }
+  .app-profit__value {
+    font-size: 0.6875rem;
+  }
+  .app-traders-calculator {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-how-it-works {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-special-offers {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-market-news {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-news {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-forex-trading-course {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-forex-trading__guide {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-forex-trading__example {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-new {
+    &__thumbnail {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    &__exerpt {
+      text-align: center;
+    }
+  }
+  .app-news-article-body {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-market-news-body, .app-company-news-body, .app-news-article-body, .app-calendar-body, .app-forex-trading-course-body, .app-traders-calculator-body {
+    &__header {
+      min-height: 250px;
+    }
+    &__title {
+      font-size: 1.9rem;
+    }
+    &__lead {
+      font-size: 1.25rem;
+    }
+    &__thumbnail {
+
+    }
+  }
+
+  // BANNER
+  // =============================================================================
+  .app-body-head {
+    height: 245px;
+  }
+  .app-body-head__text,
+  .app-body-head__text_interval {
+    font-size: 2.320rem; /* original 4.563rem; */
+    line-height: 3.400rem; /* original 5.313rem; */
+  }
+  .app-body-head__text_accent {
+    font-size: 1.920rem; /* original 3rem; */
+    line-height: 2.400rem; /* original 3.75rem; */
+  }
+  .app-body-head__button {
+    height: 40px;
+    padding: 9px 40px;
+    font-size: 0.86rem;
+  }
+  .app-introducing-broker-body-head {
+    h1 {
+      line-height: 3rem;
+    }
+  }
+  .app-white-label-banner,
+  .app-trading-platform-banner,
+  .app-partnership-programs-banner,
+  .app-frequently-asked-questions-banner,
+  .app-faq-category-banner,
+  .app-trading-conditions-banner,
+  .app-deposit-and-withdrawal-banner {
+    &__text {
+      font-size: 2.880rem;
+    }
+  }
+
+  // FOREX LIBRARY
+  // =============================================================================
+  .app-forex-library-books {
+    margin-bottom: 20px;
+  }
+  .app-forex-library-books__image_div {
+    position: static;
+  }
+  .app-forex-library-books__block {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+  .app-forex-library-books__caption {
+    padding: 0;
+    margin: 20px 0 0;
+  }
+  .app-forex-library-books__paragraph {
+    margin: 20px;
+    text-align: center;
+  }
+  .app-forex-library-books__button-wrapper {
+    margin-left: 0;
+    width: auto;
+  }
+  .app-forex-library-be-interested__card_1,
+  .app-forex-library-be-interested__card_2 {
+    width: 400px;
+  }
+  .app-forex-library-be-interested__card_caption {
+    font-size: 1.6rem; /* original 2.5rem; */
+  }
+  .app-forex-library-be-interested__card_paragraph {
+    font-size: 0.9rem; /* original 1.063rem; */
+  }
+
+  // FOREX GLOSSARY
+  // =============================================================================
+  .app-forex-glossary-be-interested__card_1,
+  .app-forex-glossary-be-interested__card_2 {
+    width: 400px;
+  }
+  .app-forex-glossary-be-interested__card_caption {
+    font-size: 1.6rem; /* original 2.5rem; */
+  }
+  .app-forex-glossary-be-interested__card_paragraph {
+    font-size: 0.9rem; /* original 1.063rem; */
+  }
+
+  // INTRODUCING BROKER
+  // =============================================================================
+  .app-introducing-broker-table {
+    margin: 0 15px 0 15px;
+  }
+  .app-introducing-broker-calc-wrapper {
+    &__container {
+      padding: 0 15px;
+    }
+  }
+  .app-introducing-broker-table-wrap {
+    display: none;
+  }
+
+  // CALL CENTER
+  // =============================================================================
+  .app-call-center-description__paragraph {
+    text-align: center;
+  }
+  .app-call-center-form-wrapper {
+    height: 100%;
+  }
+  .app-call-center-form-title {
+    font-size: 1.8rem; /* original 2.188rem; */
+  }
+
+  // WHITE LABEL
+  // =============================================================================
+  .app-white-label-description {
+    &__container {
+      padding: 0 15px;
+    }
+    &__text {
+      text-align: center;
+    }
+  }
+  .app-white-label-how-it-works {
+    &__stages {
+      flex-direction: column;
+    }
+    &__arrow {
+      transform: rotate(90deg);
+      margin-bottom: 20px;
+    }
+  }
+  .app-white-label-capabilities {
+    &__container {
+      padding: 0 15px;
+    }
+    &__text {
+      text-align: center;
+    }
+  }
+  .app-white-label-advantages {
+    &__container {
+      padding: 0 15px;
+    }
+    &__title {
+      text-align: center;
+    }
+  }
+
+  // PARTNER FORM MODAL WINDOW
+  // =============================================================================
+  #requestModal {
+    .modal-dialog {
+      padding-left: 20px;
+      width: auto;
+    }
+  }
+  .app-partner-block {
+    width: 100%;
+    &__header {
+      font-size: 1.4rem;
+    }
+  }
+  .app-partner-form {
+    width: 100%;
+    &__inputs {
+      flex-direction: column;
+      input {
+        width: 100%;
+      }
+    }
+    &__button {
+      &-submit {
+        height: 40px;
+        padding: 9px 40px;
+        font-size: 0.86rem;
+      }
+    }
+  }
+
+  // FAQ CATEGORY
+  // =============================================================================
+  .app-faq-category-questions {
+    &__accordion-wrapper {
+      padding: 20px 0 0 0;
+    }
+  }
+
+  // ==========
+
+  .app-market-news-body, .app-company-news-body, .app-news-article-body, .app-calendar-body, .app-traders-calculator-body, .app-strategy-page-body {
+    &__header {
+      min-height: 250px;
+    }
+    &__title {
+      font-size: 1.9rem;
+    }
+    &__lead {
+      font-size: 1.25rem;
+    }
+    &__thumbnail {
+
+    }
+  }
+  // OTHERS
+  // =============================================================================
+  .app-caption {
+    font-size: 1.320rem;
+  }
+}
+
+// =============================================================================
+// Extra Small Devices, Phones
+// =============================================================================
+
+@media only screen and (max-width: 480px) {
+
+  .app-special-offer {
+    &__title {
+      margin-bottom: 10px;
+      font-size: 1.95rem;
+    }
+    &__lead {
+      font-size: 1.25rem;
+    }
+  }
+  .app-404-message {
+    &__title {
+      font-size: 150px;
+    }
+    &__text {
+      font-size: 25px;
+    }
+  }
+  #app-strategy-graph {
+    .app-strategy-graph {
+      &__nav-tabs__item:nth-of-type(2) {
+        a {
+          width: 100px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+
+  }
+  .app-special-offer__sixty {
+    background: #fff url(../images/welcome-bonus-60.png) 85% -5px/516px auto no-repeat;
+  }
+  .app-special-offer__fourty {
+    background: #fff url(../images/welcome-bonus-40.png) 85% -5px/516px auto no-repeat;
+  }
+  .app-profit__period {
+    font-size: 0.6375rem;
+  }
+
+  // BANNER
+  // =============================================================================
+  .app-body-head__text,
+  .app-body-head__text_interval {
+    font-size: 1.825rem;
+    line-height: 2.125rem;
+  }
+  .app-body-head__text_accent {
+    font-size: 1.200rem;
+    line-height: 1.5rem;
+  }
+  .app-about-us-body {
+    p {
+      text-align: center;
+    }
+  }
+  .app-about-us-body .app-text-header-light {
+    font-size: 1.8rem;
+    background-size: 3px 20px;
+  }
+  .app-partnership-programs-banner,
+  .app-trading-platform-banner,
+  .app-frequently-asked-questions-banner,
+  .app-faq-category-banner,
+  .app-trading-conditions-banner,
+  .app-deposit-and-withdrawal-banner {
+    &__text {
+      font-size: 1.800rem;
+    }
+  }
+
+  // LICENSING
+  // =============================================================================
+  .app-licensing-description__paragraph {
+    text-align: center;
+  }
+
+  // CONTACTS
+  // =============================================================================
+  .app-contacts-list__header {
+    font-size: 1.5rem; /* original 1.875rem; */
+  }
+
+  // WELCOME BONUS
+  // =============================================================================
+  .app-welcome-bonus-description {
+    p {
+      text-align: center;
+    }
+  }
+  .app-welcome-bonus-manual__caption {
+    font-size: 1.2rem; /* original 1.563rem; */
+  }
+
+  // SUBSCRIPTION BONUS
+  // =============================================================================
+  .app-subscription-bonus-description {
+    p {
+      text-align: center;
+    }
+  }
+  .app-subscription-bonus-manual__caption {
+    font-size: 1.2rem; /* original 1.563rem; */
+  }
+
+  // BONUS 40%
+  // =============================================================================
+  .app-bonus-40-description {
+    p {
+      text-align: center;
+    }
+  }
+  .app-bonus-40-manual__caption {
+    font-size: 1.2rem; /* original 1.563rem; */
+  }
+
+  // FOREX LIBRARY
+  // =============================================================================
+  .app-forex-library-description {
+    p {
+      text-align: center;
+    }
+  }
+  .app-forex-library-be-interested__card_1,
+  .app-forex-library-be-interested__card_2 {
+    width: 300px;
+    padding: 10px 0;
+  }
+  .app-forex-library-be-interested__card_button {
+    padding: 5px 15px;
+  }
+  .app-forex-library-be-interested__card_line {
+    display: none;
+  }
+
+  // LUCKY DRAW
+  // =============================================================================
+  .app-lucky-draw-description {
+    p {
+      text-align: center;
+    }
+  }
+  .app-lucky-draw-list__caption {
+    font-size: 1.2rem; /* original 1.375rem */
+  }
+  .app-lucky-draw-list__caption,
+  .app-lucky-draw-list__paragraph {
+    text-align: center;
+  }
+
+  // INTRODUCTION BROKER
+  // =============================================================================
+  .app-introducing-broker-body-head {
+    h1 {
+      line-height: 2rem;
+    }
+  }
+  .app-introducing-broker-description {
+    p {
+      text-align: center;
+    }
+  }
+  .app-introducing-broker-calc-wrapper {
+    padding: 0 15px;
+  }
+  .app-text-header-line-bottom {
+    font-size: 1.375rem;
+  }
+  #number-of-clients-slider,
+  #average-deposit-slider {
+    width: 200px;
+  }
+  .app-introducing-broker-calc__result__header {
+    font-size: 1.1rem;
+  }
+  .app-introducing-broker-calc__result__profit {
+    font-size: 2.3rem;
+  }
+
+  // CALL CENTER
+  // =============================================================================
+  .app-call-center-advantages-block__text {
+    font-size: 1.2rem;
+  }
+
+  // WHITE LABEL
+  // =============================================================================
+  .app-white-label-banner {
+    &__text {
+      font-size: 1.800rem;
+    }
+  }
+
+  // TRADING PLATFORM
+  // =============================================================================
+  .app-trading-platform-description {
+    &__text-wrapper {
+      text-align: center;
+    }
+    &__title {
+      background: none;
+      font-size: 1.875rem;
+    }
+    &__text {
+      text-align: center;
+    }
+  }
+  .app-trading-platform-advantages {
+    &__title {
+      font-size: 1.875rem;
+    }
+    &__block-title {
+      text-align: center;
+    }
+    &__block-text {
+      text-align: center;
+    }
+  }
+  .app-trading-platform-additionally {
+    &__text {
+      text-align: center;
+    }
+  }
+
+  // TRADING CONDITIONS
+  // =============================================================================
+  .app-trading-conditions-description {
+    &__text {
+      text-align: center;
+    }
+  }
+
+  // DEPOSIT AND WITHDRAWAL BODY
+  // =============================================================================
+  .app-deposit-and-withdrawal-description {
+    text-align: center;
+  }
+  .app-deposit-and-withdrawal-table__tabs a {
+    font-size: 0.875rem;
+  }
+
+  // FREQUENTLY ASKED QUESTIONS
+  // =============================================================================
+  .app-frequently-asked-questions-description {
+    &__unit {
+      &-image {
+        min-width: 70px;
+        max-height: 70px;
+        min-height: 70px;
+        background-size: 50%;
+      }
+    }
+  }
+
+  // FAQ CATEGORY
+  // =============================================================================
+  .app-faq-category-questions {
+    &__unit {
+      &-title {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  .app-trading-conditions-table__cell {
+    font-size: 0.75rem;
+  }
+
+  // FOREX GLOSSARY BODY
+  // =============================================================================
+  .app-forex-glossary-action__result-search-paragraph {
+    text-align: center;
+  }
+
+  // OTHERS
+  // =============================================================================
+  .app-caption {
+    font-size: 1.120rem; /* original 1.438rem; */
+  }
+
+  .app-forex-trading__pagination__btn {
+    font-size: 15px;
+  }
+
+}
+
+// =============================================================================
+// Extra Small Devices, Phones
+// =============================================================================
+
+@media only screen and (max-width: 320px) {
+
+  // BANNER
+  // =============================================================================
+  .app-body-head__text,
+  .app-body-head__text_interval {
+    font-size: 1.216rem;
+    line-height: 1.416rem;
+  }
+  .app-body-head__text_accent {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .app-white-label-banner,
+  .app-trading-platform-banner,
+  .app-partnership-programs-banner,
+  .app-frequently-asked-questions-banner,
+  .app-faq-category-banner,
+  .app-trading-conditions-banner,
+  .app-deposit-and-withdrawal-banner {
+    &__text {
+      font-size: 1.200rem;
+    }
+  }
+}

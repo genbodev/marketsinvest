@@ -1,0 +1,513 @@
+// =============================================================================
+// GENERAL CLASSES
+// =============================================================================
+
+// =============================================================================
+// MODAL WINDOWS - OPEN/LEFT, OPEN/RIGHT
+// =============================================================================
+
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 320px;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+  padding: 15px 15px 80px;
+}
+
+.modal.left.fade .modal-dialog {
+  left: -320px;
+  -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+  transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog {
+  left: 0;
+}
+
+.modal.right.fade .modal-dialog {
+  right: -320px;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+  transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+  right: 0;
+}
+
+.modal-content {
+  border-radius: 0;
+  border: none;
+}
+
+.modal-header {
+  border-bottom-color: #EEEEEE;
+  background-color: #FAFAFA;
+}
+
+// =============================================================================
+// CUSTOM SCROLLBARS STYLES
+// =============================================================================
+
+.mCS-app-scroll-theme.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #76BD26;
+}
+
+.mCS-app-scroll-theme.mCSB_scrollTools .mCSB_draggerRail {
+  background-color: white;
+}
+
+div[id^="mCSB_"] {
+  margin: 0 !important;
+}
+
+// =============================================================================
+// MAIN SLIDER
+// =============================================================================
+
+.app-carousel-caption {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate3d(-50%, -50%, 0);
+  h3 {
+    margin: 0 0 10px 0;
+    font-size: 4.563rem;
+    font-weight: 300;
+    line-height: 0.9;
+  }
+  p {
+    font-size: 2.688rem;
+    font-weight: 500;
+  }
+}
+
+.app-text-decorator {
+  margin: 28px auto 32px auto;
+  display: block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  &:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 311px;
+    height: 2px;
+    background-color: #ffffff;
+    transform: translate3d(15px, 0, 0);
+  }
+  &:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    width: 311px;
+    height: 2px;
+    background-color: #ffffff;
+    transform: translate3d(-15px, 0, 0);
+  }
+}
+
+.app-carousel-control-left, .app-carousel-control-right {
+  max-width: 100px;
+  z-index: 5;
+}
+
+.app-carousel-arrow-left, .app-carousel-arrow-right {
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 17px;
+}
+
+.app-carousel-arrow-left {
+  margin: -25px 0 0 -20px;
+  background: #000000 url('../images/arrow1-white.svg') 50% 50% / 25px 25px no-repeat;
+  transform: rotate(180deg);
+  left: 50%;
+}
+
+.app-carousel-arrow-right {
+  margin: -25px -20px 0 0;
+  right: 50%;
+  background: #000000 url('../images/arrow1-white.svg') 50% 50% / 25px 25px no-repeat;
+}
+
+// =============================================================================
+// slider
+// =============================================================================
+.tooltip {
+  z-index: 999;
+}
+
+// =============================================================================
+// Animation effect for dropdown menu
+// =============================================================================
+
+/*.dropdown .dropdown-menu {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+
+  max-height: 0;
+  display: block;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.dropdown.open .dropdown-menu {
+  overflow-y: auto;
+  max-height: 300px;
+  opacity: 1;
+}*/
+
+// =============================================================================
+// Header/caption inline-block (e.g span)
+// =============================================================================
+
+.app-text-header {
+  font-family: LatoWeb, sans-serif;
+  font-weight: 500;
+  font-size: 2.188rem;
+  padding-left: 18px;
+  background: url('../images/caption-line.png') no-repeat 0 3px;
+  background-size: 3px 25px;
+}
+
+.app-text-header-light {
+  @extend .app-text-header;
+  font-weight: 300;
+}
+
+.app-text-header-light-no-line {
+  @extend .app-text-header;
+  font-weight: 300;
+  background: none;
+  padding-left: 0;
+}
+
+// =============================================================================
+
+.app-body-head {
+  height: 622px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #333;
+  position: relative;
+  &__text {
+    text-align: center;
+    font-size: 4.563rem;
+    color: #ffffff;
+    font-family: OpenSans, serif;
+    font-weight: 300;
+    line-height: 3.75rem;
+  }
+  &__text_interval {
+    text-align: center;
+    font-size: 4.563rem;
+    color: #ffffff;
+    font-family: OpenSans, serif;
+    font-weight: 300;
+    line-height: 5.313rem;
+  }
+  &__text_accent {
+    @extend .app-body-head__text;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    padding: 0 15px;
+  }
+  &__line {
+    background: url('../images/head-line.png') no-repeat center;
+    height: 16px;
+    width: 664px;
+    margin-bottom: 30px;
+  }
+  &__button {
+    @extend .app-button;
+    border: 1px solid #ffffff !important;
+    outline: none !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+  }
+}
+
+.app-body-head__button:hover {
+  color: #ffffff;
+}
+
+.app-caption {
+  color: $atlantis;
+  font-family: OpenSans, serif;
+  font-weight: 600;
+  font-size: 1.438rem;
+}
+
+.app-caption-mineshaft {
+  color: $mineShaft;
+  font-family: OpenSans, serif;
+  font-weight: 500;
+  font-size: 1.875rem
+}
+
+.app-paragraph {
+  color: $mineShaft;
+  font-family: OpenSans, serif;
+  font-weight: 400;
+  font-size: 1.063rem;
+  margin-bottom: 20px;
+  line-height: 1.6rem;
+}
+
+.app-text-header-line-bottom {
+  padding-bottom: 12px;
+  color: $mineShaft;
+  text-align: center;
+  font-family: OpenSanc, sans-serif;
+  font-weight: 600;
+  font-size: 1.875rem;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-image: url('../images/caption-line-bottom.png');
+  background-size: 114px 3px;
+  &-regular {
+    font-weight: 400;
+  }
+}
+
+.app-simple-header {
+  font-size: 1.375rem;
+  font-family: LatoWeb, serif;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.app-button {
+  border-radius: 25px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: $atlantis;
+  padding: 14px 40px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 500;
+  font-size: 1.063rem;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  line-height: normal;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  &__edging_green {
+    @extend .app-button;
+    height: 52px;
+    border-radius: 25px;
+    background-color: $atlantis;
+    box-shadow: 0 2px 5px 0 rgba(0, 1, 0, 0.15);
+    border: solid 2px #ffffff;
+  }
+  &__edging_green:hover,
+  &__edging_green:active,
+  &__edging_green:focus{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  &__edging_yellow {
+    @extend .app-button;
+    height: 52px;
+    border-radius: 25px;
+    background-color: $supernova;
+    box-shadow: 0 2px 5px 0 rgba(0, 1, 0, 0.15);
+    border: solid 2px #ffffff;
+  }
+  &__edging_yellow:hover,
+  &__edging_yellow:active,
+  &__edging_yellow:focus{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  &__edging_orange {
+    @extend .app-button;
+    height: 52px;
+    border-radius: 25px;
+    background-color: $orange;
+    box-shadow: 0 2px 5px 0 rgba(0, 1, 0, 0.15);
+    border: solid 2px #ffffff;
+  }
+  &__edging_orange:hover,
+  &__edging_orange:active,
+  &__edging_orange:focus{
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+
+.app-input {
+  font-family: OpenSans, sans-serif;
+  font-size: 1.063rem;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px #ddd;
+  border-radius: 23px;
+  outline: none;
+  width: 330px;
+  height: 44px;
+  padding-left: 28px;
+  padding-bottom: 5px;
+}
+
+.app-input::placeholder {
+  color: #989898;
+}
+
+// =============================================================================
+// Form partner elements
+// =============================================================================
+
+.app-partner-block-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.app-partner-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdfdfd;
+  border-radius: 4px;
+  padding: 0 30px;
+  width: 770px;
+  background: url(../images/background.png) 0 0/cover no-repeat;
+  &__header {
+    padding-bottom: 12px;
+    color: $mineShaft;
+    text-align: center;
+    font-family: OpenSanc, sans-serif;
+    font-weight: 600;
+    font-size: 1.675rem;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-image: url('../images/caption-line-bottom.png');
+    background-size: 114px 3px;
+    margin: 30px;
+  }
+}
+
+.app-partner-form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.app-partner-form {
+  width: 560px;
+  &__inputs {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__buttons {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  &__input {
+    font-family: OpenSans, sans-serif;
+    font-size: 1.063rem;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px #ddd;
+    border-radius: 23px;
+    outline: none;
+    width: 560px;
+    height: 44px;
+    padding-left: 28px;
+    padding-bottom: 5px;
+    padding-top: 4px;
+    margin-bottom: 30px;
+    &-name {
+      @extend .app-partner-form__input;
+    }
+    &-email,
+    &-phone,
+    &-country,
+    &-city {
+      @extend .app-partner-form__input;
+      width: 240px;
+    }
+    &-comment {
+      @extend .app-partner-form__input;
+      resize: none;
+      overflow: hidden;
+      width: 560px;
+      height: 100px;
+      padding-bottom: 50px;
+      padding-top: 0;
+      padding-right: 28px;
+      &::-webkit-input-placeholder {
+        padding-top: 10px;
+      }
+      &::-moz-input-placeholder {
+        padding-top: 10px;
+      }
+      &:-moz-input-placeholder {
+        padding-top: 10px;
+      }
+      &:-ms-input-placeholder {
+        padding-top: 10px;
+      }
+    }
+  }
+  &__button {
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: $atlantis;
+    padding: 14px 40px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 500;
+    font-size: 1.063rem;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    line-height: normal;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #ffffff;
+    &-submit {
+      @extend .app-partner-form__button;
+    }
+  }
+}

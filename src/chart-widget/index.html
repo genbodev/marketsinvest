@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="chartjs.js"></script>
+    <script type="text/javascript" src="chart_widget.js"></script>
+</head>
+
+<body>
+    <div id="GFBChart-wrapper" style="width: 800px; height: 500px">
+    </div>
+    <button onclick="GFBChart.generateNewChart(1023)">Show 1023 account</button>
+    <button onclick="GFBChart.generateNewChart(1049)">Show 1049 account</button>
+    <button onclick="GFBChart.selectChartType('TwoLine','Gain')">Gain</button>
+    <button onclick="GFBChart.selectChartType('SingleBar','Drawdown')">Drawdown</button>
+    <button onclick="GFBChart.selectChartType('SingleLine','PL')">Profit/Loss point</button>
+    <button onclick="GFBChart.selectChartType('SingleLine','Profit')">Profit</button>
+    <button onclick="GFBChart.selectChartType('SingleLine','Balance')">Balance</button>
+</body>
+
+</html>

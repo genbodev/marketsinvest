@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Markets Invest | forex-library</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-dropdownhover.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<!-- Header Desktop -->
+<header class="app-header-desktop visible-lg" data-spy="affix" data-offset-top="50">
+    <div class="app-top-panel">
+        <div class="container app-top-panel-container">
+            <div class="app-top-panel__row">
+                <a href="#" class="app-link">
+                    <button class="btn-link">Web-терминал</button>
+                </a>
+                <a href="#" class="app-link">
+                    <button class="btn-link">Контакты</button>
+                </a>
+                <a href="#" class="app-link">
+                    <button class="btn-link">Обратный звонок</button>
+                </a>
+            </div>
+            <div class="app-top-panel__row">
+                <a href="#">
+                    <button class="app-btn-registration btn">Регистрация</button>
+                </a>
+                <a href="#">
+                    <button class="app-btn-login btn">Войти</button>
+                </a>
+                <div class="app-selectpicker-wrap">
+                    <select class="selectpicker">
+                        <option>EN</option>
+                        <option selected="selected">RU</option>
+                        <!--                        <option>AR</option>
+                                                <option>FR</option>-->
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="app-nav-desktop">
+        <div class="app-nav-desktop-container container">
+            <div class="app-nav-desktop__brand">
+                <a href="index.html" class="app-brand btn-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                   data-animations="fadeInDown"><img
+                        src="src/images/mi-logo.png" alt="mi-logo"></span></a>
+            </div>
+            <div id="app-nav-desktop-dropdown" class="app-nav-desktop__dropdown dropdown dropdown-block">
+                <a href="#" class="app-nav-category btn-link dropdown-toggle" data-toggle="dropdown"
+                   data-animations="fadeInDown">О компании <span class="app-caret"></span></a>
+                <a href="#" class="app-nav-category dropdown-toggle" data-toggle="dropdown"
+                   data-animations="fadeInDown">Торговля и инвестиции <span class="app-caret"></span></a>
+                <a href="#" class="app-nav-category dropdown-toggle" data-toggle="dropdown"
+                   data-animations="fadeInDown">Бонусы и акции <span class="app-caret"></span></a>
+                <a href="#" class="app-nav-category dropdown-toggle" data-toggle="dropdown"
+                   data-animations="fadeInDown">Аналитика и обучение <span class="app-caret"></span></a>
+                <div class="dropdown-menu" role="menu">
+                    <div class="app-subnav-desktop">
+                        <div class="app-subnav-item">
+                            <a href="/"><img src="src/images/best-broker.png" alt="best-broker"></a>
+                            <p class="lead">Best international<br>
+                                Forex Broker - 2018</p>
+                        </div>
+                        <div class="app-subnav-item">
+                            <ul class="nav">
+                                <li><a href="about-us.html">О компании</a></li>
+                                <li><a href="licensing.html">Лицензирование</a></li>
+                                <li><a href="company-news.html">Новости
+                                    компании</a></li>
+                                <li><a href="contact-us.html">Контакты</a></li>
+                                <li><a href="partnership-programs.html">Партнерские программы</a></li>
+                            </ul>
+                        </div>
+                        <div class="app-subnav-item">
+                            <ul class="nav">
+                                <!--<li><a href="#">Инвестиционные счета</a></li>-->
+                                <li><a href="trading-accounts.html">Торговые счета</a></li>
+                                <li><a href="trading-conditions.html">Спецификация инструментов</a></li>
+                                <li><a href="trading-platform.html">Торговая платформа</a></li>
+                                <li><a href="deposit-and-withdrawal.html">Пополнение и вывод средств</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="app-subnav-item">
+                            <ul class="nav">
+                                <li><a href="bonus-40.html">40% Бонус</a></li>
+                                <li><a href="welcome-bonus.html">60% Бонус</a></li>
+                                <li><a href="welcome-bonus.html">Бонус за подписку</a></li>
+                                <li><a href="lucky-draw.html">Lucky Draw</a></li>
+                            </ul>
+                        </div>
+                        <div class="app-subnav-item">
+                            <ul class="nav">
+                                <li><a href="forex-trading-course.html">Основы торговли</a></li>
+                                <li><a href="forex-glossary.html">Глоссарий</a></li>
+                                <li><a href="forex-library.html">Библиотека трейдера</a></li>
+                                <li><a href="market-news.html">Новости рынка</a></li>
+                                <li><a href="economic-calendar.html">Экономический календарь</a></li>
+                                <li><a href="traders-calculator.html">Калькулятор трейдера</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app-nav-desktop__fixed">
+                <a href="#">
+                    <button class="app-btn-login btn">Войти</button>
+                </a>
+                <select class="selectpicker">
+                    <option>EN</option>
+                    <option selected="selected">RU</option>
+                    <!--<option>AR</option>
+                    <option>FR</option>-->
+                </select>
+            </div>
+        </div>
+    </div>
+    </div>
+</header>
+<!-- Header for the Mobile version -->
+<header class="app-header-mobile hidden-lg">
+    <button type="button" class="app-btn-burger" data-toggle="modal" data-target="#mobileNavbar">
+    </button>
+    <!-- Modal -->
+    <div class="modal left fade" id="mobileNavbar" tabindex="-1" role="dialog" aria-labelledby="mobileModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="/">
+                        <figure class="app-mobile-logo">
+                            <img src="src/images/mi-logo-mobile.png" alt="mi-logo" class="img-responsive">
+                        </figure>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#about-the-company">
+                                        О компании <span class="app-caret"></span></a>
+                                </h4>
+                            </div>
+                            <div id="about-the-company" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="app-mobile-nav nav">
+                                        <li><a href="about-us.html">О компании</a></li>
+                                        <li><a href="licensing.html">Лицензирование</a></li>
+                                        <li><a href="company-news.html">Новости
+                                            компании</a></li>
+                                        <li><a href="contact-us.html">Контакты</a></li>
+                                        <li><a href="partnership-programs.html">Партнерские программы</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#trade-and-investment">
+                                        Торговля и
+                                        инвестиции <span class="app-caret"></span></a>
+                                </h4>
+                            </div>
+                            <div id="trade-and-investment" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="app-mobile-nav nav">
+                                        <!--<li><a href="#">Инвестиционные счета</a></li>-->
+                                        <li><a href="trading-accounts.html">Торговые счета</a></li>
+                                        <li><a href="trading-conditions.html">Спецификация инструментов</a></li>
+                                        <li><a href="trading-platform.html">Торговая платформа</a></li>
+                                        <li><a href="deposit-and-withdrawal.html">Пополнение и вывод средств</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#bonuses-and-promotions">
+                                        Бонусы и акции <span class="app-caret"></span></a>
+                                </h4>
+                            </div>
+                            <div id="bonuses-and-promotions" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="app-mobile-nav nav">
+                                        <li><a href="bonus-40.html">40% Бонус</a></li>
+                                        <li><a href="welcome-bonus.html">60% Бонус</a></li>
+                                        <li><a href="subscription-bonus.html">Бонус за подписку</a></li>
+                                        <li><a href="lucky-draw.html">Lucky Draw</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#analitics-and-training">
+                                        Аналитика и
+                                        обучение <span class="app-caret"></span></a>
+                                </h4>
+                            </div>
+                            <div id="analitics-and-training" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="app-mobile-nav nav">
+                                        <li><a href="forex-trading-course.html">Основы торговли</a></li>
+                                        <li><a href="forex-glossary.html">Глоссарий</a></li>
+                                        <li><a href="forex-library.html">Библиотека трейдера</a></li>
+                                        <li><a href="economic-calendar.html">Экономический календарь</a></li>
+                                        <li><a href="traders-calculator.html">Калькулятор трейдера</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="app-mobile-group-buttons panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#">
+                                    <button class="app-mobile-registration btn text-uppercase">
+                                        Регистрация
+                                    </button>
+                                </a>
+                                <a href="#">
+                                    <button class="app-mobile-login btn text-uppercase">
+                                        Войти
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <span id="app-lang-flag"><img src="src/images/russia.svg" alt="lang"></span><h4>Смена языка</h4>
+                            </div>
+                            <div class="panel-body">
+                                <div id="app-mobile-lang-switcher">
+                                    <select class="selectpicker">
+                                        <option>English</option>
+                                        <option selected="selected">Русский</option>
+                                        <!--<option>العربية</option>
+                                        <option>Français</option>-->
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- modal-content -->
+        </div><!-- modal-dialog -->
+    </div><!-- modal -->
+</header>
+
+<!-- forex library page body -->
+<div class="app-forex-library-body">
+    <div class="app-body-head app-forex-library-body-head">
+        <h1 class="app-body-head__text">Forex Library</h1>
+        <p class="app-body-head__text_accent">Expand your knowledge</p>
+        <div class="app-text-decorator hidden-xs"></div>
+        <!--<a class="app-body-head__button"
+           href="https://trade.markets-invest.com/cabinet/signup">Начать зарабатывать</a>-->
+    </div>
+    <!-- Advantages Module -->
+    <div id="module-advantages">
+    <div class="app-advantages-wrap visible-lg">
+        <div class="app-advantages">
+            <div class="app-advantages__container container">
+                <ul class="nav app-advantages-nav">
+                    <li class="app-advantages-nav__item"><span
+                            class="app-advantages-nav__img app-advantages-nav__img-protect"></span><a href="#"
+                                                                                                      class="app-advantages-nav__link">Защита
+                        средств</a></li>
+                    <li class="app-advantages-nav__item"><span
+                            class="app-advantages-nav__img app-advantages-nav__img-managing"></span><a href="#"
+                                                                                                       class="app-advantages-nav__link">Надежные
+                        управляющие</a></li>
+                    <li class="app-advantages-nav__item"><span
+                            class="app-advantages-nav__img app-advantages-nav__img-bonuses"></span><a href="#"
+                                                                                                      class="app-advantages-nav__link">Различные
+                        бонусы</a></li>
+                    <li class="app-advantages-nav__item"><span
+                            class="app-advantages-nav__img app-advantages-nav__img-start"></span><a href="#"
+                                                                                                    class="app-advantages-nav__link">Быстрый
+                        старт</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row" style="margin-top: 83px; margin-bottom: 40px;">
+            <div class="app-forex-library-description col-xs-12">
+                <p style="margin-bottom: 20px;" class="text-center">
+                    <span class="app-forex-library-description__header">Best Forex books for Beginners</span>
+                </p>
+                <p class="app-forex-library-description__paragraph">
+                    In order to grasp all the relevant aspects of currency trading, a trader should read books that can
+                    expand his horizons. Good Forex books are priceless and it is important to find those that will help
+                    you form your successful professional background.
+                </p>
+                <p class="app-forex-library-description__paragraph">
+                    We have prepared this article to provide you with the best Forex books for starters in pdf available
+                    in 2017. Note that you can download these books for free via forex-library.com website.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="app-forex-library-books-wrap">
+        <div class="container">
+            <div class="row">
+                <!--01-->
+                <div class="col-md-6">
+                    <div class="app-forex-library-books">
+                        <div class="app-forex-library-books__block">
+                            <div class="app-forex-library-books__image_div">
+                                <img class="app-forex-library-books__image"
+                                     src="src/images/the-mathematics-of-money-management.jpg"/>
+                            </div>
+                            <h1 class="app-forex-library-books__caption">
+                                Математика управления капиталом
+                            </h1>
+                            <p class="app-forex-library-books__paragraph">
+                                Методы анализа риска для трейдеров и портфельных менеджеров.
+                                Благоприятный прием книги «Формулы управления портфелем» превысил мои самые большие
+                                ожидания.
+                            </p>
+                            <div class="app-forex-library-books__button-wrapper">
+                                <a class="app-forex-library-books__button"
+                                   href="src/files/The_Mathematics_of_Money_Management.pdf">Скачать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--02-->
+                <div class="col-md-6">
+                    <div class="app-forex-library-books">
+                        <div class="app-forex-library-books__block">
+                            <div class="app-forex-library-books__image_div">
+                                <img class="app-forex-library-books__image img-responsive"
+                                     src="src/images/the-martingale-method.jpg"/>
+                            </div>
+                            <h1 class="app-forex-library-books__caption">
+                                Метод Мартингейла</h1>
+                            <p class="app-forex-library-books__paragraph">
+                                Прямой метод Мартингейла имеет две формы, простую и сложную. Простая форма требует
+                                удвоения вашей ставки после каждого убытка, так что, выиграв только раз, вы
+                                компенсируйте сумму, которую первоначально подвергли риску.
+                            </p>
+                            <div class="app-forex-library-books__button-wrapper">
+                                <a class="app-forex-library-books__button"
+                                   href="src/files/The_Martingale_Method.doc">Скачать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!--03-->
+                <div class="col-md-6">
+                    <div class="app-forex-library-books">
+                        <div class="app-forex-library-books__block">
+                            <div class="app-forex-library-books__image_div">
+                                <img class="app-forex-library-books__image"
+                                     src="src/images/secrets-of-investing.jpg"/>
+                            </div>
+                            <h1 class="app-forex-library-books__caption">
+                                Секреты инвестирования в ПИФ
+                            </h1>
+                            <p class="app-forex-library-books__paragraph">
+                                Сегодня инвестиции в ценные бумаги входят в нашу жизнь и занимают в ней значительное
+                                место. Буквально два года назад количество инвесторов в нашей стране составляло 50 000,
+                                а сейчас уже 300 000 человек.
+                            </p>
+                            <div class="app-forex-library-books__button-wrapper">
+                                <a class="app-forex-library-books__button"
+                                   href="src/files/Secrets_of_Investing.pdf">Скачать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--04-->
+                <div class="col-md-6">
+                    <div class="app-forex-library-books">
+                        <div class="app-forex-library-books__block">
+                            <div class="app-forex-library-books__image_div">
+                                <img class="app-forex-library-books__image"
+                                     src="src/images/forex-for-beginners.jpg"/>
+                            </div>
+                            <h1 class="app-forex-library-books__caption">
+                                Форекс для начинающих
+                            </h1>
+                            <p class="app-forex-library-books__paragraph">
+                                В основу книги положен многолетний опыт автора на рынке FOREX.
+                                Излагаются основы современного подхода к анализу рынка, управления капиталом, построения
+                                торговых систем и психологического поведения на бирже.
+                            </p>
+                            <div class="app-forex-library-books__button-wrapper">
+                                <a class="app-forex-library-books__button"
+                                   href="src/files/Forex_for_beginners.djvu">Скачать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!--05-->
+                <div class="col-md-6">
+                    <div class="app-forex-library-books">
+                        <div class="app-forex-library-books__block">
+                            <div class="app-forex-library-books__image_div">
+                                <img class="app-forex-library-books__image"
+                                     src="src/images/technical-analysis.jpg"/>
+                            </div>
+                            <h1 class="app-forex-library-books__caption">
+                                Технический анализ
+                            </h1>
+                            <p class="app-forex-library-books__paragraph">
+                                Технический анализ — одна из старейших рыночных дисциплин. Однако до сих пор большинство
+                                специалистов по инвестированию и научных работников рассматривают его, в лучшем случае,
+                                как слабое дополнение к своим собственным прогнозам
+                            </p>
+                            <div class="app-forex-library-books__button-wrapper">
+                                <a class="app-forex-library-books__button"
+                                   href="src/files/Technical_analysis.djvu">Скачать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--06-->
+                <div class="col-md-6">
+                    <div class="app-forex-library-books">
+                        <div class="app-forex-library-books__block">
+                            <div class="app-forex-library-books__image_div">
+                                <img class="app-forex-library-books__image"
+                                     src="src/images/trade-chaos.jpg"/>
+                            </div>
+                            <h1 class="app-forex-library-books__caption">
+                                Торговый хаос
+                            </h1>
+                            <p class="app-forex-library-books__paragraph">
+                                Страшная правда заключается в том, что 90 процентов всех трейдеров постоянно теряют
+                                деньги. Около 5-7 процентов имеют периодические успехи и только 3-5 процентов
+                                действительно регулярно делают деньги.
+                            </p>
+                            <div class="app-forex-library-books__button-wrapper">
+                                <a class="app-forex-library-books__button"
+                                   href="src/files/Trade_chaos.zip">Скачать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!--07-->
+                <div class="col-md-6">
+                    <div class="app-forex-library-books">
+                        <div class="app-forex-library-books__block">
+                            <div class="app-forex-library-books__image_div">
+                                <img class="app-forex-library-books__image"
+                                     src="src/images/practice-of-exchange-speculations.jpg"/>
+                            </div>
+                            <h1 class="app-forex-library-books__caption">
+                                Практика биржевых спекуляций
+                            </h1>
+                            <p class="app-forex-library-books__paragraph">
+                                В сфере инвестиций, как и в жизни, вопрос заключается не в том, окажитесь ли вы в
+                                «нокдауне», а в том, когда это случится, и сумеете ли вы после этого подняться и
+                                продолжить бой.
+                            </p>
+                            <div class="app-forex-library-books__button-wrapper">
+                                <a class="app-forex-library-books__button"
+                                   href="src/files/Practice_of_exchange_speculations.djvu">Скачать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--08-->
+                <div class="col-md-6">
+                    <div class="app-forex-library-books">
+                        <div class="app-forex-library-books__block">
+                            <div class="app-forex-library-books__image_div">
+                                <img class="app-forex-library-books__image"
+                                     src="src/images/mysteries-and-secrets-of-option-trading.jpg"/>
+                            </div>
+                            <h1 class="app-forex-library-books__caption">
+                                Загадки и тайны опционной торговли
+                            </h1>
+                            <p class="app-forex-library-books__paragraph">
+                                Идея написать книгу родилась в процессе подготовки курса лекций по опционной торговле.
+                                Затем возникло решение использовать материалы для более серьезного издания, что и было
+                                немедленно сделано.
+                            </p>
+                            <div class="app-forex-library-books__button-wrapper">
+                                <a class="app-forex-library-books__button"
+                                   href="src/files/Mysteries_and_secrets_of_option_trading.djvu">Скачать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!--09-->
+                <div class="col-md-6">
+                    <div class="app-forex-library-books">
+                        <div class="app-forex-library-books__block">
+                            <div class="app-forex-library-books__image_div">
+                                <img class="app-forex-library-books__image"
+                                     src="src/images/how-to-make-money-on-the-stock-exchange.jpg"/>
+                            </div>
+                            <h1 class="app-forex-library-books__caption">
+                                Как делать деньги на фондовой бирже
+                            </h1>
+                            <p class="app-forex-library-books__paragraph">
+                                Книга "Как делать деньги на фондовом рынке" дает вам хорошо зарекомендовавшую себя,
+                                простую, основанную на фактах торговую систему, известную как CAN SLIM.
+                            </p>
+                            <div class="app-forex-library-books__button-wrapper">
+                                <a class="app-forex-library-books__button"
+                                   href="src/files/How_to_make_money_on_the_stock_exchange.djvu">Скачать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--10-->
+                <div class="col-md-6">
+
+                </div>
+            </div>
+        </div>
+        <!--<div class="container" style="margin-bottom: 40px;">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <div class="app-forex-library-button">Загрузить еще</div>
+                </div>
+            </div>
+        </div>-->
+    </div>
+    <div class="app-forex-library-be-interested">
+        <div class="container" style="margin-bottom: 40px;">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <div class="col-xs-12">
+                        <p style="margin-bottom: 20px;" class="text-center">
+                            <span class="app-forex-library-be-interested__header">Вас также заинтересует</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="app-forex-library-be-interested__card-wrapper">
+                        <div class="app-forex-library-be-interested__card_1">
+                            <div class="app-forex-library-be-interested__card_caption">
+                                Образовательный курс
+                            </div>
+                            <div class="app-forex-library-be-interested__card_paragraph">
+                                Пройдите наш курс дистанционного обучения для того чтобы начать торговать на рынке
+                                "Forex".
+                                Данный курс содержит информацию об основных принципах торговли, основах работы с
+                                терминалом,
+                                истории рынка и методах его анализа.
+                            </div>
+                            <div class="app-forex-library-be-interested__card_line"></div>
+                            <div class="app-forex-library-be-interested__card_button-wrapper">
+                                <a class="app-forex-library-be-interested__card_button"
+                                   href="forex-trading-course.html">
+                                    Узнать больше
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="app-forex-library-be-interested__card-wrapper">
+                        <div class="app-forex-library-be-interested__card_2">
+                            <div class="app-forex-library-be-interested__card_caption">
+                                Forex глоссарий
+                            </div>
+                            <div class="app-forex-library-be-interested__card_paragraph">
+                                Рынок "Forex" имеет множество сложных и непонятных для новичка терминов терминов. Для
+                                того
+                                чтобы помочь Вам разобраться во всех тонкостях рынка "Forex', мы создали специальный
+                                раздел
+                                - Forex Глоссарий, в котором собрали наиболее распространенные термины и понятия
+                                необходимые
+                                для успешной торговли.
+                            </div>
+                            <div class="app-forex-library-be-interested__card_line"></div>
+                            <div class="app-forex-library-be-interested__card_button-wrapper">
+                                <a class="app-forex-library-be-interested__card_button"
+                                   href="forex-glossary.html">
+                                    Узнать больше
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Desktop, Mobile Footer -->
+<footer class="app-footer">
+    <div class="container">
+        <div class="app-social text-center">
+            <div class="app-social-links">
+                <a href="https://www.facebook.com/MarketsInvest/" class="app-link-social app-link-social__facebook"
+                   target="_blank"></a>
+                <a href="https://vk.com/public156457552" class="app-link-social app-link-social__vk"
+                   target="_blank"></a>
+                <a href="https://twitter.com/markets_invest" class="app-link-social app-link-social__twitter"
+                   target="_blank"></a>
+                <a href="https://plus.google.com/u/1/104328776130067206693"
+                   class="app-link-social app-link-social__google-plus" target="_blank"></a>
+            </div>
+        </div>
+        <div class="app-footer-content">
+            <div class="app-footer-refs">
+                <div class="app-footer-links">
+                    <ul class="nav">
+                        <li><a href="#">Условия использования сайта</a></li>
+                        <li><a href="#">Заявление о раскрытии рисков</a></li>
+                        <li><a href="#">Борьба с легализацией преступных
+                            доходов</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <div class="app-footer-pages hidden-xs hidden-sm">
+                    <ul class="nav">
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Торговая платформа</a></li>
+                        <li><a href="#">Торговые условия</a></li>
+                    </ul>
+                    <ul class="nav">
+                        <li><a href="#">Золотой депозит</a></li>
+                        <li><a href="#">Брокерские услуги</a></li>
+                        <li><a href="#">Лицензирование</a></li>
+                    </ul>
+                </div>
+                <div class="app-footer-security">
+                    <figure>
+                        <img src="src/images/secure.png" alt="secure" class="img-responsive">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="app-footer-remarks">
+            <p>Контракты на разницу цен (CFD) относятся к категории активов с высокой степенью риска. Торговля с
+                использованием кредитного плеча может привести к потере первоначального депозита. Начиная работать с
+                контрактами на разницу, убедитесь, что вы осознаете риски, с которыми сопряжена торговля CFD.</p>
+            <p>Информация на этой странице не предназначена для резидентов Соединенных Штатов и Новой Зеландии и не
+                предполагает распространения или использования кем либо в стране или юрисдикции, где распространение или
+                использование такой информации запрещены местным регулированием.</p>
+            <p>Название и логотип Markets Invest являются зарегистрированными товарными знаками компании Dragon Capital
+                ltd.. Компания имеет право на эксклюзивное использование данных товарных знаков на территории
+                Сент-Винсент и Гренадин и за ее пределами.</p>
+            <p>Сайт управляется Dragon Capital ltd, регулируемой законом о дилерах по операциям с ценными бумагами
+                SVGFSA, номер регистрации 24303, 305, Griffith Corporate Centre, P.O. Box 1510, Beachmont, Kingstown,
+                St. Vincent and the Grenadines.</p>
+        </div>
+    </div>
+</footer>
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-dropdownhover.min.js"></script>
+<script src="js/bootstrap-select.min.js"></script>
+<script src="js/jquery.caret.js"></script>
+<script src="js/jquery.mobilePhoneNumber.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

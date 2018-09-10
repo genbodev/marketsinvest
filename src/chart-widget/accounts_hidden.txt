@@ -1,0 +1,54 @@
+
+
+
+{
+    "id": "6225",
+    "name": "Uniqorn",
+    "minimalInvestment": "0",
+    "managerReward": "0",
+    "description_en": "Trading strategy with a history of more than four years. This trading strategy is based on trading on trend movement, after a breakdown of a certain level. As the main instruments of trade, 6 tools are used. In this strategy, manager opens orders with standard lot size and increases it as the deposit grows.",
+    "description_ru": "Торговая стратегия с историей более четырех лет. Данная торговая стратегия строится на торговле по тренду, после пробоя определенного уровня. В качестве основных инструментов торговли, используется 6 инструментов. При торговле, управляющий использует для открытия стандартный размер лота, который увеличивается по мере роста депозита."
+},
+
+
+{
+    "id": "6214",
+    "name": "X-ray",
+    "minimalInvestment": "0",
+    "managerReward": "0",
+    "description_en": "A trading strategy with a history of one year, which is based on impulse trading. A key feature of this strategy is the impulse trading on strong impulse movement by using fixed \"Stop loss\" and \"Take Profit\" levels. As the main instruments of trade, 3 currency pairs are used. In this strategy, manager uses the averaging technique, using up to 7 averages per pulse, in order to minimize risks.",
+    "description_ru": "Торговая стратегия с историей в один год, которая основывается на импульсной торговле. Особенностью данной стратегии является импульсная торговля со входом на рынок после начала сильного импульсного движения с использованием фиксированных показателей “Stop loss” и “Take Profit”. В качестве основных инструментов торговли, используется 3 валютных пары. При торговле,с целью минимизации рисков, управляющий использует методику усреднения, с использованием до 7 усреднений за один импульс."
+}
+
+{
+    "id": "6214",
+    "name": "Romeo",
+    "minimalInvestment": "0",
+    "managerReward": "35",
+    "description_en": "A trading strategy with a history of just under a year, but with using data, collected  since 2007. This trading strategy is based on trading through the use of a pulsed adviser on strong trend movements. As the main instruments of trading, 4 currency pairs are used. In this strategy, manager opens orders in the case of passing by price of a certain distance, as well as after comparing the market conditions specified in the system with the real ones.",
+    "description_ru": "Торговая стратегия с историей чуть менее года, но с использованием данных собранных и протестированных для советника с 2007. Данная торговая стратегия строится на торговле за счет использования импульсного советника на сильных  движениях по тренду.В качестве основных инструментов торговли, используется 4 валютных пары. При торговле, управляющий, опираясь на данные советника, открывает сделки в случае прохождения ценой валютной пары определенного расстояния, а также после сопоставления заданных в системе условий рынка с реальными."
+},
+{
+    "id": "6216",
+    "name": "Quebec",
+    "minimalInvestment": "440",
+    "managerReward": "35",
+    "description_en": "A trading strategy with a history of just under a year. This trading strategy is based on trading through the use of the technique of breakdowns of the previous level. The main currency is USD / JPY. Manager uses trading techniques for the breakdown of the previous level. In order to minimize risks, manager uses the averaging technique",
+    "description_ru": "Торговая стратегия с историей чуть менее года. Данная торговая стратегия строится на торговле за счет использования методики пробоев предыдущего уровня. В качестве основного инструмента торговли используется валютная пара USD/JPY. При торговле, управляющий использует методики торговли на пробой предыдущего уровня, при этом для минимизации рисков, управляющий использует методику усреднения."
+},
+{
+    "id": "6211",
+    "name": "Golf",
+    "minimalInvestment": "10000",
+    "managerReward": "35",
+    "description_en": "A trading strategy with a history of just under a year, which is based on the opening of long-term positions. A key feature of this strategy is a combined trading with opening of long-term positions and scalping trading with a timeframe from M1 to H4. As the main instruments of trading, 5 currency pairs are used. In this strategy, manager uses a large number of opened orders to minimize risks.",
+    "description_ru": "Торговая стратегия с историей чуть менее года, которая строится на открытии долгосрочных позиций. Особенностью данной стратегии является комбинированная торговля с открытием долгосрочных позиций и скальпинга на интервалах от M1 до H4. В качестве основных инструментов торговли, используется 5 валютных пар. При торговле, управляющий использует большое количество открытых сделок для минимизации рисков."
+},
+{
+    "id": "6217",
+    "name": "Echo",
+    "minimalInvestment": "975",
+    "managerReward": "35",
+    "description_en": "Trading strategy with a history of more than a year. This trading strategy is based on intraday trading, which allows to reduce the role of statistical factors in trading. A key feature of this strategy is trading on trend movement by using a robot. As the main instruments of trading, 13 currency pairs are used. In this strategy, manager opens orders with standard lots sizes for each instrument.",
+    "description_ru": "Торговая стратегия с историей более года. Данная торговая стратегия строится на внутридневной торговле, что позволяет уменьшить роль статистических факторов при торговле. Особенностью данной стратегии является трендовая торговля с использованием робота. В качестве основных инструментов торговли, используется 13 валютных пар. При торговле, управляющий использует стандартные лоты."
+}
